@@ -559,7 +559,7 @@ button:hover{
       }
 
       .about-class {
-        margin-top: 50px;
+        margin-top: 80px;
       }
       
     .about-container {
@@ -575,6 +575,9 @@ button:hover{
     .about-container {
       grid-template-columns: 1fr;
     }
+    .about-class {
+        margin-top: 80px;
+      }
     .services-list {
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
