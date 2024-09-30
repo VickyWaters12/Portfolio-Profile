@@ -589,7 +589,43 @@ button:hover{
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
   }
-
+@media only screen and (max-width: 768px) {
+    .contact form {
+        max-width: 100%;
+        margin: 1rem auto;
+    }
+    .contact form .input-box input,
+    .contact form textarea {
+        width: 100%;
+        padding: 1.5rem;
+        font-size: 1.6rem;
+        color: #fff;
+        border: 1px solid crimson;
+        margin: 0.7rem 0;
+        border-radius: 0.8rem;
+        background: transparent;
+        resize: none;
+        outline: none;
+    }
+    .contact .btn-t {
+        margin-top: 2rem;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        width: 100% !important;
+        height: 45px;
+        outline: none;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 6px;
+        cursor: pointer;
+        flex-wrap: nowrap;
+        background: orangered;
+        border: 2px solid orangered;
+        transition: all 0.3s ease;
+    }
+}
 
  
 
